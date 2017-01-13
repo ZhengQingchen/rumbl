@@ -43,6 +43,4 @@ defmodule Rumbl.VideoChannel do
         {:reply, {:error, %{errors: changeset}}, socket}
     end
   end
-
-
 end
